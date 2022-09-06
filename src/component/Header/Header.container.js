@@ -23,6 +23,11 @@ export const mapDispatchToProps = dispatch => ({
 
 export class HeaderContainer extends SourceHeaderContainer {
     // TODO implement logic
+    render(){
+        return(
+            <h1>hello</h1>
+        )
+    }
 };
 
 export default withRouter(connect(mapStateToProps, mapDispatchToProps)(HeaderContainer));
