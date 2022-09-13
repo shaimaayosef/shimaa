@@ -1,0 +1,27 @@
+.ProgressBar {
+  // TODO style the element
+  //   .stepContainer {
+  //     border: 3px solid green;
+  //   }
+  .control-buttons {
+    text-align: center;
+    .btn {
+      padding: 7px 32px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 16px;
+      margin: 4px 12px;
+      cursor: pointer;
+      background-color: white;
+      color: black;
+      border: 2px solid greenyellow;
+      &:hover {
+        background: red;
+        color: white;
+      }
+      &:focus {
+        outline: 0;
+      }
+    }
+  }
+}
